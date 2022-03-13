@@ -34,11 +34,16 @@ body {
 
 }
 #main-photo {
-	width: 100px;
-	height: 100px;
+	width: 10em;
+	height: 10em;
 	display: block;
 	margin: 0 auto;
-}
+	position: relative;
+	bottom: 4em;
+	border-radius: 50%;
+  }
+  
+
 ol, ul {
 	list-style: none;
 }
