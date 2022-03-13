@@ -41,6 +41,8 @@ body {
 	position: relative;
 	bottom: 4em;
 	border-radius: 50%;
+	border: #6e1653 solid 3px;
+	padding: 5px
   }
   
 
@@ -3358,7 +3360,11 @@ border-bottom: solid;
 	.content-box img {
 		width: 15em;
 		height: 28em;
-		border-radius: 5%;
+		border-radius: 1rem;
+		transition: transform 500ms ease;
+	}
+	.content-box img:hover {
+		transform: scale(1.05);
 	}
 .description-box {
 	display: flex;
